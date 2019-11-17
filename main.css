@@ -62,7 +62,7 @@ nav
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 940px;
+	width: 950px;
 	text-align: center;
 	padding: 0;
 }
@@ -77,13 +77,68 @@ h1
 
 .photo
 {
-	display: inline-block;
 	margin-top: 10px;
-
+	width: 120px;
+	padding: 10px;
+	display: inline-block;
 }
 
+.photo img
+{
+	flex-basis: 100%;
+	width: 100px;
+}
 
+.photo a
+{
+	opacity: 0.9;
+}
 
+.photo a:hover
+{
+	opacity: 1;
+}
 
+.photo figure
+{
+	margin: 8px;
+	padding: 0;
+}
 
+.photo figcaption
+{
+	margin-top: 8px;
+	padding: 0;
+}
+
+.entries
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin-top: 40px;
+}
+
+#newest
+{
+	background-color: #191d21;
+}
+
+.entry
+{
+	background-color: #222930;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+
+.entry img
+{
+	flex-basis: 100%;
+	width: 100px;
+}
 
