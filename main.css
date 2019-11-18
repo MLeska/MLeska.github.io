@@ -73,6 +73,7 @@ h1
 	font-weight: 400;
 	color: #39a5f1;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 .photo
@@ -81,6 +82,38 @@ h1
 	width: 120px;
 	padding: 10px;
 	display: inline-block;
+}
+
+.photo img
+{
+	flex-basis: 100%;
+	width: 100px;
+}
+
+.photo a
+{
+	opacity: 0.9;
+}
+
+.photo a:hover
+{
+	opacity: 1;
+}
+
+.photo figure
+{
+	margin: 8px;
+	padding: 0;
+}
+
+.photo
+{
+	margin-top: 10px;
+	width: 120px;
+	padding: 10px;
+	display: inline-block;
+	font-size: 9px;
+	
 }
 
 .photo img
@@ -115,6 +148,51 @@ h1
 {
 	margin-left: auto;
 	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin-top: 40px;
+}
+
+#newest
+{
+	background-color: #191d21;
+}
+
+.entry
+{
+	background-color: #222930;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+
+.entryimg
+{
+	display: inline-block;
+	margin-left: 20px;
+	width: 120px;
+}
+
+.entryimg img
+{
+	width: 90px;
+	height: 90px;
+}
+
+.entrytxt
+{
+	display: inline-block;
+	width: 760px;
+	font-size: 15px;
+}
+
+.entries
+{
+	margin-left: auto;
+	margin-right: auto;
 	width: 940px;
 	text-align: center;
 	padding-top: 10px;
@@ -142,3 +220,9 @@ h1
 	width: 100px;
 }
 
+h2
+{
+	font-size: 20px;
+	font-weight: 400px;
+	color: #39a5f1;
+}
