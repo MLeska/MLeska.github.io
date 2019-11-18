@@ -1,8 +1,8 @@
 body
 {
 	margin: 0;
-	background-color: #2F3336;
-	color: #efefef;
+	background-color: #DDD;
+	color: #555555;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
 }
@@ -11,16 +11,16 @@ h1.logo
 {
 	font-size: 44px;
 	font-weight: 700;
-	color: #ddd;
+	color: #000000;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	margin-top: 50px;
-	margin-bottom: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 nav
 {
-	background-color: #1c74b2;
+	background-color: #555555;
 	text-align: center;
 }
 
@@ -63,16 +63,28 @@ nav
 	margin-left: auto;
 	margin-right: auto;
 	width: 950px;
-	text-align: center;
 	padding: 0;
 }
 
-h1
+.category
 {
-	font-size: 44px;
-	font-weight: 400;
-	color: #39a5f1;
-	margin-bottom: 20px;
+	background-color: #DDD;
+	padding: 30px;
+	margin-top: 10px;
+	text-align: justify;
+}
+
+.categorytxt
+{
+	width: 760px;
+	font-size: 15px;
+}
+
+h2
+{
+	font-size: 20px;
+	font-weight: 400px;
+	color: #000;
 	text-align: center;
 }
 
@@ -144,54 +156,3 @@ h1
 	padding: 0;
 }
 
-.entries
-{
-	margin-left: auto;
-	margin-right: auto;
-	width: 950px;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 80px;
-	margin-top: 40px;
-}
-
-#newest
-{
-	background-color: #191d21;
-}
-
-.entry
-{
-	background-color: #222930;
-	padding: 10px;
-	text-align: justify;
-	margin-top: 40px;
-	border-radius: 5px;
-}
-
-.entryimg
-{
-	display: inline-block;
-	margin-left: 20px;
-	width: 120px;
-}
-
-.entryimg img
-{
-	width: 90px;
-	height: 90px;
-}
-
-.entrytxt
-{
-	display: inline-block;
-	width: 760px;
-	font-size: 15px;
-}
-
-h2
-{
-	font-size: 20px;
-	font-weight: 400px;
-	color: #39a5f1;
-}
