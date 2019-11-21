@@ -55,7 +55,7 @@ nav
 
 .menu a:hover
 {
-	color: #0a2b42;
+	color: #808080;
 }
 
 .categories
@@ -163,7 +163,7 @@ h2
 	background-color: #555555;
 }
 
-.socialdivs
+.socialbutton
 {
 	width: 600px;
 	margin: 0 auto;
@@ -172,16 +172,27 @@ h2
 	display: inline-block;
 }
 
-.airbnb img
+.socialbutton img
 {
-	width: 100px;
-	height: 72px;
+	width: 72px;
+	height: 50px;
 	float:left;
-	border-radius: 50px;
+	border-radius: 5px;
 	background-color: #FF5A5F;
 }
 
-.airbnb img:hover
+.socialbutton a
 {
-	backgroung-color: #FF5A5F;
+	opacity: 1;
+}
+
+.socialbutton a:hover
+{
+	opacity: 0.5;
+}
+
+.socialbutton figure
+{
+	margin: 8px;
+	padding: 0;
 }
